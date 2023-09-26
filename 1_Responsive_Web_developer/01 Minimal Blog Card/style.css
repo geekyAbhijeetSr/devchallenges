@@ -1,0 +1,82 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Sora', sans-serif;
+}
+
+section {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fdf1f2;
+}
+
+.card {
+	max-width: 368px;
+	background-color: #fff;
+	border-radius: 18px;
+	box-shadow: 8px 8px 16px 0px rgba(108, 114, 127, 0.08);
+}
+
+.card__main {
+	padding: 1rem;
+}
+
+.card__image {
+	width: 100%;
+	height: 152px;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.card__image img {
+	width: 100%;
+	object-fit: cover;
+	transform: scale(1.3) translateY(-14px);
+}
+
+.card__tag {
+	margin: 1rem 0;
+}
+
+.card__tag span {
+	padding: 0.4rem 1rem;
+	background-color: #e6d6fc;
+	color: #883ae1;
+	font-size: 0.625rem;
+	font-weight: 600;
+	border-radius: 12px;
+}
+
+.card__title {
+	font-size: 1.25rem;
+	color: #20293a;
+	margin-bottom: 0.4rem;
+	font-weight: 600;
+    letter-spacing: 0.006rem;
+}
+
+.card__body {
+	font-size: 0.875rem;
+	color: #6c727f;
+	margin-bottom: 0.25rem;
+}
+
+.card__divider {
+	width: 100%;
+	height: 1px;
+	background-color: #e5eaf0;
+}
+
+.card__writer {
+	margin: 0 1rem 1.25rem 1rem;
+	padding-top: 1.25rem;
+	font-size: 0.75rem;
+	color: #6c727f;
+}
